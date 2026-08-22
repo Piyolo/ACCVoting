@@ -1,0 +1,21 @@
+# Environment / secrets
+.env
+.env.local
+*.env
+
+# Local config overrides
+config/local.php
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependency directories (not used here, but harmless to exclude)
+vendor/
+node_modules/
+
+# Logs
+*.log
+.htaccess
